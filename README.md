@@ -2,6 +2,8 @@
 
 TCP Slow Start
 ------------------------------
+![](https://www.keycdn.com/img/support/tcp-slow-start-lg.webp)
+
 Keeping [TCP Slow](https://blog.std.in/http-response-sizes-and-tcp/) start in mind, it would be fair to say that, the lesser you ship payload to the user, the faster would be the load time. 
 
 Server Side Rendering
