@@ -14,7 +14,8 @@ The term [Progressive Hydration](https://www.youtube.com/watch?v=k-A2VfuUROg&t=9
 Script Streaming
 --------------------------------
 With [Script streaming](https://blog.chromium.org/2015/03/new-javascript-techniques-for-rapid.html), parsing async/defer scripts can be offloaded to a separate worker thread instead of the main thread. This means that parsing can complete just milliseconds after the download has finished, and results in pages loading as much as 10% faster.
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Loading scripts w/&lt;script async&gt; or &lt;script defer&gt;? V8 parses em on a separate thread once downloading begins. Improves loading by up to 10% <a href="https://t.co/PH5shfK8Mb">pic.twitter.com/PH5shfK8Mb</a></p>&mdash; Addy Osmani (@addyosmani) <a href="https://twitter.com/addyosmani/status/808713528160813056?ref_src=twsrc%5Etfw">December 13, 2016</a></blockquote>
+
+![](https://pbs.twimg.com/media/Czkf6kfVIAAmQM6?format=jpg&name=large)
 
   Resource prioritization
   --------------------------------
