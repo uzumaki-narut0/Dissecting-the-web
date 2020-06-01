@@ -6,6 +6,7 @@ Keeping [TCP Slow](https://blog.std.in/http-response-sizes-and-tcp/) start in mi
 
 Server Side Rendering
 -------------------------------
+### Progressive Hydration
 The term [Progressive Hydration](https://www.youtube.com/watch?v=k-A2VfuUROg&t=960s) was introduced by Google at Google I/O 2019 where they gave a gist of how we can split the component's hydration phase progressively instead of going all out at the page boot up phase. This is a bit tricky to implement but has substantial performance gains.
 
 Script Streaming
